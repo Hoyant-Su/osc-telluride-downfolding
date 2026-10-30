@@ -1,0 +1,155 @@
+[
+  {
+    "material_id": "2NiS-5",
+    "atoms": 4,
+    "irreducible_kpoints": 20,
+    "electron_count": 48.00000000000001,
+    "electron_count_from_occupations": 47.99999999996792,
+    "fermi_energy_ev": -0.8569505629969167,
+    "active_band_zero_based": 24,
+    "n_band": 0.8435060896211093,
+    "nef_states_per_ev_atom": 1.402051036088183,
+    "bandwidth_ev": 2.011376514030106,
+    "t_ev": 0.25142206425376323,
+    "U_over_t": 8,
+    "solver_Ne": 30,
+    "solver_delta": 0.16666666666666663,
+    "scoring_Ne_after_particle_hole_mapping": 30,
+    "published_A_d": 0.05569,
+    "index_from_published_table": 23.42404935,
+    "scoring_status": "published table estimate",
+    "crossing_bands": [
+      {
+        "band_zero_based": 21,
+        "n_band": 1.637281516529286,
+        "bandwidth_ev": 1.675097307542826
+      },
+      {
+        "band_zero_based": 22,
+        "n_band": 1.6457011868216034,
+        "bandwidth_ev": 2.5881849905480543
+      },
+      {
+        "band_zero_based": 23,
+        "n_band": 1.51136836016574,
+        "bandwidth_ev": 2.462465789301387
+      },
+      {
+        "band_zero_based": 24,
+        "n_band": 0.8435060896211093,
+        "bandwidth_ev": 2.011376514030106
+      },
+      {
+        "band_zero_based": 25,
+        "n_band": 0.3621428443020813,
+        "bandwidth_ev": 1.9992025312044408
+      }
+    ]
+  },
+  {
+    "material_id": "1TiTe2-1",
+    "atoms": 3,
+    "irreducible_kpoints": 7,
+    "electron_count": 24.0,
+    "electron_count_from_occupations": 23.999999999926263,
+    "fermi_energy_ev": -0.321366614529993,
+    "active_band_zero_based": 12,
+    "n_band": 0.1966667576154739,
+    "nef_states_per_ev_atom": 0.6523375129980172,
+    "bandwidth_ev": 1.2201207354248709,
+    "t_ev": 0.15251509192810886,
+    "U_over_t": 8,
+    "solver_Ne": 6,
+    "solver_delta": 0.8333333333333334,
+    "scoring_Ne_after_particle_hole_mapping": 6,
+    "published_A_d": null,
+    "index_from_published_table": null,
+    "scoring_status": "requires organizer reference at Ne=6",
+    "crossing_bands": [
+      {
+        "band_zero_based": 10,
+        "n_band": 1.9448457835018473,
+        "bandwidth_ev": 2.425712536859989
+      },
+      {
+        "band_zero_based": 11,
+        "n_band": 1.8584868076297016,
+        "bandwidth_ev": 2.3714597964726667
+      },
+      {
+        "band_zero_based": 12,
+        "n_band": 0.1966667576154739,
+        "bandwidth_ev": 1.2201207354248709
+      }
+    ]
+  },
+  {
+    "material_id": "1PdTe2-1",
+    "atoms": 3,
+    "irreducible_kpoints": 7,
+    "electron_count": 28.0,
+    "electron_count_from_occupations": 27.999999999968193,
+    "fermi_energy_ev": -0.35808454981321697,
+    "active_band_zero_based": 12,
+    "n_band": 1.9929049697687897,
+    "nef_states_per_ev_atom": 0.16798775536776137,
+    "bandwidth_ev": 2.055717587848509,
+    "t_ev": 0.2569646984810636,
+    "U_over_t": 8,
+    "solver_Ne": 70,
+    "solver_delta": -0.9444444444444444,
+    "scoring_Ne_after_particle_hole_mapping": 2,
+    "published_A_d": 0.00283,
+    "index_from_published_table": 0.14262351,
+    "scoring_status": "published table estimate",
+    "crossing_bands": [
+      {
+        "band_zero_based": 12,
+        "n_band": 1.9929049697687897,
+        "bandwidth_ev": 2.055717587848509
+      },
+      {
+        "band_zero_based": 13,
+        "n_band": 2.0058521193386993,
+        "bandwidth_ev": 1.9866615583601854
+      }
+    ]
+  },
+  {
+    "material_id": "1PdTe2-2",
+    "atoms": 3,
+    "irreducible_kpoints": 7,
+    "electron_count": 28.0,
+    "electron_count_from_occupations": 27.999999999908166,
+    "fermi_energy_ev": 0.2467578069683923,
+    "active_band_zero_based": 14,
+    "n_band": 0.1584277740516047,
+    "nef_states_per_ev_atom": 0.6043417440211307,
+    "bandwidth_ev": 1.0849977849614516,
+    "t_ev": 0.13562472312018145,
+    "U_over_t": 8,
+    "solver_Ne": 6,
+    "solver_delta": 0.8333333333333334,
+    "scoring_Ne_after_particle_hole_mapping": 6,
+    "published_A_d": null,
+    "index_from_published_table": null,
+    "scoring_status": "requires organizer reference at Ne=6",
+    "crossing_bands": [
+      {
+        "band_zero_based": 12,
+        "n_band": 1.960719068202722,
+        "bandwidth_ev": 3.2629722559158827
+      },
+      {
+        "band_zero_based": 13,
+        "n_band": 1.8750133416615555,
+        "bandwidth_ev": 2.193217319385402
+      },
+      {
+        "band_zero_based": 14,
+        "n_band": 0.1584277740516047,
+        "bandwidth_ev": 1.0849977849614516
+      }
+    ]
+  }
+]

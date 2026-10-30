@@ -1,0 +1,54 @@
+[
+  {
+    "osc_id": "OSC-00353",
+    "material_id": "1TiTe2-1",
+    "formula": "Te2Ti",
+    "n_atoms": "3",
+    "magnetic": "No",
+    "gap_pbe": "0.0",
+    "e_hull": "0.009",
+    "layer_group": "p-3m1",
+    "source": "C2DB via OSC candidates.csv",
+    "source_license": "CC-BY-NC-4.0",
+    "structure_url": "https://c2db.fysik.dtu.dk/material/1TiTe2-1/download/cif"
+  },
+  {
+    "osc_id": "OSC-00747",
+    "material_id": "2NiS-5",
+    "formula": "Ni2S2",
+    "n_atoms": "4",
+    "magnetic": "No",
+    "gap_pbe": "0.0",
+    "e_hull": "0.303",
+    "layer_group": "p-3m1",
+    "source": "C2DB via OSC candidates.csv",
+    "source_license": "CC-BY-NC-4.0",
+    "structure_url": "https://c2db.fysik.dtu.dk/material/2NiS-5/download/cif"
+  },
+  {
+    "osc_id": "OSC-00789",
+    "material_id": "1PdTe2-1",
+    "formula": "PdTe2",
+    "n_atoms": "3",
+    "magnetic": "No",
+    "gap_pbe": "0.0",
+    "e_hull": "0.086",
+    "layer_group": "p-3m1",
+    "source": "C2DB via OSC candidates.csv",
+    "source_license": "CC-BY-NC-4.0",
+    "structure_url": "https://c2db.fysik.dtu.dk/material/1PdTe2-1/download/cif"
+  },
+  {
+    "osc_id": "OSC-00790",
+    "material_id": "1PdTe2-2",
+    "formula": "PdTe2",
+    "n_atoms": "3",
+    "magnetic": "No",
+    "gap_pbe": "0.0",
+    "e_hull": "0.227",
+    "layer_group": "p-6m2",
+    "source": "C2DB via OSC candidates.csv",
+    "source_license": "CC-BY-NC-4.0",
+    "structure_url": "https://c2db.fysik.dtu.dk/material/1PdTe2-2/download/cif"
+  }
+]

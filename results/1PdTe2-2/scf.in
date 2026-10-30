@@ -1,0 +1,48 @@
+&CONTROL
+   calculation      = 'scf'
+   verbosity        = 'high'
+   outdir           = './scratch'
+   prefix           = 'osc'
+   disk_io          = 'low'
+   pseudo_dir       = '../../pseudo'
+/
+&SYSTEM
+   ecutwfc          = 35
+   ecutrho          = 280
+   occupations      = 'smearing'
+   degauss          = 0.02
+   smearing         = 'mv'
+   nspin            = 1
+   ntyp             = 2
+   nat              = 3
+   ibrav            = 0
+/
+&ELECTRONS
+   conv_thr         = 1e-06
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Pd 106.42 pd_pbe_v1.4.uspp.F.UPF
+Te 127.6 te_pbe_v1.uspp.F.UPF
+
+K_POINTS automatic
+6 6 1  0 0 0
+
+CELL_PARAMETERS angstrom
+4.03680046705015 0.00000000000000 0.00000000000000
+-2.01840023352507 3.49597175447431 0.00000000000000
+0.00000000000000 0.00000000000000 17.83466733267278
+
+ATOMIC_POSITIONS angstrom
+Pd 0.0000000000 0.0000000000 8.9173336664  
+Te 2.0184002335 1.1653239182 10.3523903695  
+Te 2.0184002335 1.1653239182 7.4822769631  
+

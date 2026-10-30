@@ -1,0 +1,49 @@
+&CONTROL
+   calculation      = 'scf'
+   verbosity        = 'high'
+   outdir           = './scratch'
+   prefix           = 'osc'
+   disk_io          = 'low'
+   pseudo_dir       = '../../pseudo'
+/
+&SYSTEM
+   ecutwfc          = 35
+   ecutrho          = 280
+   occupations      = 'smearing'
+   degauss          = 0.02
+   smearing         = 'mv'
+   nspin            = 1
+   ntyp             = 2
+   nat              = 4
+   ibrav            = 0
+/
+&ELECTRONS
+   conv_thr         = 1e-06
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Ni 58.6934 ni_pbe_v1.4.uspp.F.UPF
+S 32.06 s_pbe_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+6 6 1  0 0 0
+
+CELL_PARAMETERS angstrom
+3.58588743000138 0.00000000000000 0.00000000000000
+-1.79294371500069 3.10593113143733 0.00000000000000
+0.00000000000000 0.00000000000000 18.42166027639440
+
+ATOMIC_POSITIONS angstrom
+Ni -0.0003211882 2.0720739088 10.3920268443  
+S 1.7933347105 1.0361403212 7.4994275199  
+S -0.0004090107 0.0017268965 10.9222313210  
+Ni 0.0002997184 2.0712550600 8.0296385226  
+
